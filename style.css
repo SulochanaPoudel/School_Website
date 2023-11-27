@@ -1,0 +1,258 @@
+/* overall */
+
+.bg-px {
+  padding-left: 12%;
+  padding-right: 10%;
+}
+
+.blue {
+  background-color: #00609E;
+}
+
+.yellow {
+  background-color: #ECAE24;
+}
+
+.text-yellow {
+  color: #ECAE24;
+}
+
+.p {
+  font-size: 20px;
+  padding: 4px;
+}
+
+.line1{
+  background-color: #f0f8ff;
+}
+
+
+/* headerstyle */
+
+.logo-container {
+  background-color: white;
+  display: inline-block;
+  max-width: 50px;
+  /* Adjust the maximum width as needed */
+  height: auto;
+  /* Automatically adjust the height while maintaining aspect ratio */
+}
+
+.yellow-bar {
+  background-color: #ECAE24;
+  margin-left: 15%;
+  margin-right: 20%;
+
+}
+
+.nav-bg {
+  background-color: #00609E;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid white;
+
+}
+
+
+
+
+
+/* boxes */
+.position {
+  top: -80px;
+  text-align: justify;
+}
+
+
+.box {
+  height: 120px;
+  min-height: 50px;
+}
+
+
+@media screen and (max-width: 990px) {
+  .box {
+    background-color: aliceblue;
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .position {
+   top: -50px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .position {
+   top: -30px;
+  }
+  .pic{
+    margin-top: 40px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+ .course{
+  width: 400px;
+  height: 250px;
+ }
+}
+
+/* @media screen and (max-width: 800px) {
+  .box {
+    width: 150px;
+    height: auto;
+  }
+} */
+
+
+
+
+
+
+
+.intro-bg {
+  background-color: #ECAE24;
+}
+
+.intro-h {
+  color: aliceblue;
+  text-align: center;
+}
+
+.intro-b {
+  text-align: justify;
+}
+
+.intro-btn {
+  text-align: center;
+  background-color: #00609E;
+  color: aliceblue;
+  max-width: 150px;
+  display: block;
+  margin: auto;
+}
+
+.text-size {
+  font-size: 22px;
+}
+
+
+.box-blue {
+  width: 380px;
+  border-top-right-radius: 50px;
+  padding: .2rem 0 0rem 1rem;
+  border-bottom-right-radius: 50px;
+  height: 35px;
+}
+
+
+.box-yellow {
+  width: 300px;
+  border-top-right-radius: 50px;
+  padding: .2rem 0 0rem 1rem;
+  border-bottom-right-radius: 50px;
+  height: 35px;
+  margin-bottom: -2rem;
+}
+
+
+
+
+
+.box-blue2 {
+  width: 380px;
+  padding: .2rem 0 0rem 1rem;
+  border-radius: 50px 0 0 50px;
+  height: 35px;
+  margin-left: auto;
+}
+
+
+.box-yellow2 {
+  width: 300px;
+  padding: .2rem 0 0rem 1rem;
+  border-radius: 50px 0 0 50px;
+  height: 35px;
+  margin-left: auto;
+  margin-top: -10rem;
+
+}
+
+.img-section {
+  transition: transform 0.3s ease-in-out;
+}
+
+.img-section:hover {
+  transform: scale(0.9);
+  /* Adjust the scale factor for zoom effect */
+  opacity: 0.8;
+}
+
+
+
+/* course */
+.shadow-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(2, 0, 36);
+  background: radial-gradient(circle, rgba(12, 0, 48, 0) 0%, rgba(37, 36, 36, 0.613) 50%, rgba(0, 0, 0, 0.9439425428374475) 100%);
+}
+
+ttom,
+
+/* .course {
+  filter:brightness(0.6) ;
+
+} */
+
+.shadow{
+  aspect-ratio: 4/3;
+}
+
+/* .gird{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+} */
+
+
+.course{
+ text-align: center;
+}
+
+.padding{
+  padding-top: 35%;
+  text-shadow: 2px 2px black;
+  text-align: justify;
+  max-width: 200px;
+}
+
+.padding:hover{
+  color: black;
+  text-shadow: 2px 2px #a04628;
+}
+
+
+/* messsage */
+.message{
+  color: black;
+  text-align: justify;
+  font-size: 20px;
+}
+
+
+.back-next{
+  top:-170px
+}
