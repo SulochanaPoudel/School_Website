@@ -1,9 +1,5 @@
 /* overall */
 
-.bg-px {
-  padding-left: 12%;
-  padding-right: 10%;
-}
 
 .blue {
   background-color: #00609E;
@@ -13,17 +9,19 @@
   background-color: #ECAE24;
 }
 
-.text-yellow {
-  color: #ECAE24;
-}
 
 .p {
   font-size: 20px;
-  padding: 4px;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
-.line1{
+.line1 {
   background-color: #f0f8ff;
+}
+
+.justify {
+  text-align: justify;
 }
 
 
@@ -62,48 +60,69 @@
 
 
 
+
 /* boxes */
 .position {
-  top: -80px;
+  top: 10px;
   text-align: justify;
 }
 
-
+.box-color {
+  background: linear-gradient(1deg, #ECAE24 4.15%, #ECAE24 4.16%, #00609E 98.85%, rgba(236, 174, 36, 0.00) 98.86%);
+  
+}
 .box {
   height: 120px;
   min-height: 50px;
 }
 
+.border-shadow{
+  border: 1px 1px #00609E;
+  
+}
 
-@media screen and (max-width: 990px) {
+
+/* @media screen and (max-width: 990px) {
   .box {
-    background-color: aliceblue;
     margin-bottom: 1rem;
-    color: black;
+  }
+
+  .bg-px {
+    padding: 0
   }
 }
+
 @media screen and (max-width: 700px) {
   .position {
-   top: -50px;
+    top: -50px;
   }
 }
+
 @media screen and (max-width: 400px) {
   .position {
-   top: -30px;
+    top: -30px;
   }
-  .pic{
+
+  .pic {
     margin-top: 40px;
   }
 }
 
 @media screen and (min-width: 400px) {
- .course{
-  width: 400px;
-  height: 250px;
- }
+  .course {
+    width: 400px;
+    height: 250px;
+  }
 }
 
-/* @media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
+  .bg-px {
+    padding-right: 0;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 800px) {
   .box {
     width: 150px;
     height: auto;
@@ -121,7 +140,7 @@
 }
 
 .intro-h {
-  color: aliceblue;
+  color: black;
   text-align: center;
 }
 
@@ -212,14 +231,13 @@
   background: radial-gradient(circle, rgba(12, 0, 48, 0) 0%, rgba(37, 36, 36, 0.613) 50%, rgba(0, 0, 0, 0.9439425428374475) 100%);
 }
 
-ttom,
 
 /* .course {
   filter:brightness(0.6) ;
 
 } */
 
-.shadow{
+.shadow {
   aspect-ratio: 4/3;
 }
 
@@ -229,31 +247,31 @@ ttom,
 } */
 
 
-.course{
- text-align: center;
+.course {
+  text-align: center;
 }
 
-.padding{
+.padding {
   padding-top: 35%;
   text-shadow: 2px 2px black;
   text-align: justify;
   max-width: 200px;
 }
 
-.padding:hover{
+.padding:hover {
   color: black;
   text-shadow: 2px 2px #a04628;
 }
 
 
 /* messsage */
-.message{
+.message {
   color: black;
   text-align: justify;
   font-size: 20px;
 }
 
 
-.back-next{
-  top:-170px
+.back-next {
+  top: -170px
 }
